@@ -1,0 +1,31 @@
+#!/bin/bash
+# for my amd64  and i386 desktop
+# post install: installed after the base system and after init-my-linux has
+
+# install geany config and keybindings
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany /home/robert/.config/geany
+
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.gitconfig /home/robert/.gitconfig
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.git-credentials /home/robert/.git-credentials
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/rclone /home/robert/.config/rclone
+
+# install x windows themes, backgrounds, icons and config for user robert
+# files are stored in /mnt/debhome/xconfig - themes.tar.xz, icons.tar.xz, backgrounds.tar config.tar.xz
+# the link /mnt/debhome -> to root directory
+# to install themes
+if test -f /mnt/debhome/xconfig/themes.tar.xz; then
+	# extract to /usr/share if they do not exist
+	test -d /usr/share/themes/Graphite-dark-nord || tar --xz -xf /mnt/debhome/xconfig/themes.tar.xz -C /usr/share/ themes/Graphite-dark-nord
+	test -d /usr/share/themes/Material-Black-Cherry-3.36 || tar --xz -xf /mnt/debhome/xconfig/themes.tar.xz -C /usr/share/ themes/Material-Black-Cherry-3.36
+	test -d /usr/share/themes/Material-Black-Plum || tar --xz -xf /mnt/debhome/xconfig/themes.tar.xz -C /usr/share/ themes/Material-Black-Plum
+fi
+# extract all icons if Tela-circle-dark does not exist
+if test -f /mnt/debhome/xconfig/icons.tar.xz; then
+	test -d /usr/share/icons/Tela-circle-dark || tar --xz -xf /mnt/debhome/xconfig/icons.tar.xz -C /usr/share/
+fi
+
+# extract dconf and mate for config
+# -> .config
+if test -f /mnt/debhome/xconfig/uconfig.tar.xz; then
+	tar --xz -xvf /mnt/debhome/xconfig/uconfig.tar.xz -C /home/robert
+fi

@@ -1,0 +1,43 @@
+Package: ubuntu-install
+Version: 1.00
+Maintainer: Robert Key <robkey@mighty.co.za>
+Priority: optional
+Origon: Ubuntu
+Section: myown
+Conflicts: my-work-linux,
+	my-linux-testing
+Pre-depends: subversion
+Recommends: build-essential,
+	perlprimer-doc,
+	perl-doc-html,
+	perl-doc,
+	perl-tk,
+	libdevel-ptkdb-perl,
+	findutils,
+	dpkg-dev,
+	debmirror,
+	rsync,
+	ssh,
+	synaptic,
+	openoffice.org-calc,
+	man2html,
+	ibritish,
+	ispell,
+	linux-headers-generic,
+	firefox,
+	builddebiantree,
+	okular,
+        dropbox,
+        kdesdk-dolphin-plugins,
+	konsole,
+	kdiff3,
+	kompare,
+	git-all,
+	geany,
+        geany-common,
+	default-jdk,
+        default-jdk-doc,
+        geany-plugins
+Architecture: amd64
+Description: This package installs all files for ubuntu desktop.
+
