@@ -1,5 +1,5 @@
 Package: ubuntu-install
-Version: 1.00
+Version: 1.0.1
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
@@ -9,6 +9,7 @@ Conflicts: my-work-linux,
 Pre-depends: subversion
 Recommends: build-essential,
 	perlprimer-doc,
+	rclone,
 	perl-doc-html,
 	perl-doc,
 	perl-tk,
@@ -32,7 +33,7 @@ Recommends: build-essential,
 	konsole,
 	kdiff3,
 	kompare,
-	git-all,
+	git,
 	geany,
         geany-common,
 	default-jdk,
