@@ -6,10 +6,10 @@
 # the link /mnt/debhome -> to root directory
 # to install themes
 if test -f /mnt/debhome/xconfig/themes.tar.xz; then
-	# extract to /usr/share if they do not exist
+	# Only Yaru- themes here
 	tar --xz -xvf /mnt/debhome/xconfig/themes.tar.xz -C /usr/share/
 fi
-# extract all icons if Tela-circle-dark does not exist
+# extract all Yaru- icons to /usr/share/icons
 if test -f /mnt/debhome/xconfig/icons.tar.xz; then
 	tar --xz -xvf /mnt/debhome/xconfig/icons.tar.xz -C /usr/share/
 fi
@@ -20,7 +20,11 @@ if test -f /mnt/debhome/xconfig/config.tar.xz; then
 	tar --xz -xvf /mnt/debhome/xconfig/config.tar.xz -C /home/robert
 fi
 
-#extract backgrounds to /home/robert/.local/share/backgrounds
+#extract backgrounds to /usr/share/backgrounds
 if test -f /mnt/debhome/xconfig/backgrounds.tar; then
 	tar -xvf /mnt/debhome/xconfig/backgrounds.tar -C /usr/share
 fi
+
+# extract cascadia fonts to /usr/share/fonts
+if test -f /mnt/debhome/xconfig/fonts.tar.xz; then
+	tar -xvf /mnt/debhome/xconfig/font.tar.xz -C /usr/share
