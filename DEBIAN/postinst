@@ -30,5 +30,5 @@ fi
 
 #extract backgrounds to /home/robert/.local/share/backgrounds
 if test -f /mnt/debhome/xconfig/backgrounds.tar; then
-	tar -xvf /mnt/debhome/xconfig/backgrounds.tar -C /home/robert/.local/share
+	tar -xvf /mnt/debhome/xconfig/backgrounds.tar -C /usr/share
 fi
