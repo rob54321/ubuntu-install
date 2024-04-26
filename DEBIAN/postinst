@@ -27,5 +27,5 @@ fi
 
 # extract cascadia fonts to /usr/share/fonts
 if test -f /mnt/debhome/xconfig/fonts.tar.xz; then
-	tar -xvf /mnt/debhome/xconfig/font.tar.xz -C /usr/share
+	tar -xvf /mnt/debhome/xconfig/fonts.tar.xz -C /usr/share
 fi
