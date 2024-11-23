@@ -33,4 +33,4 @@ fi
 # export geany config files to /home/robert/.config
 cd /home/robert
 mkdir -p .config/geany
-svn export --force file:///mnt/svn/root/my-linux/geany geany
+svn export --force file:///mnt/svn/root/my-linux/geany .config/geany
