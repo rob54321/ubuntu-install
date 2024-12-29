@@ -1,5 +1,5 @@
 Package: ubuntu-install
-Version: 1.1.2
+Version: 1.1.3
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
@@ -8,6 +8,24 @@ Conflicts: my-work-linux,
 	my-linux-testing
 Pre-depends: subversion
 Recommends: build-essential,
+	ubuntu-mate-desktop,
+	coreutils,
+	wget,
+	sudo,
+	curl,
+	nano,
+	htop,
+	xorg,
+	lightdm,
+	mesa-utils,
+	net-tools,
+	iputils-ping,
+	openssh-server,
+	gnome-tweaks,
+	gnome-software,
+	gnome-logs,
+	gnome-disk-utility,
+	ubuntu-minimal,
 	perlprimer-doc,
 	rclone,
 	perl-doc-html,
@@ -28,19 +46,18 @@ Recommends: build-essential,
 	firefox,
 	builddebiantree,
 	okular,
-    dropbox,
-    kdesdk-dolphin-plugins,
+	dropbox,
+	kdesdk-dolphin-plugins,
 	konsole,
 	kdiff3,
 	kompare,
 	git,
 	gh,
 	geany,
-    geany-common,
+	geany-common,
 	default-jdk,
     default-jdk-doc,
     psensor,
     geany-plugins
 Architecture: amd64
 Description: This package installs all files for ubuntu desktop.
-
