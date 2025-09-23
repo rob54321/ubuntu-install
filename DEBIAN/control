@@ -1,12 +1,11 @@
 Package: ubuntu-install
-Version: 1.1.3
+Version: 1.1.4
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
 Section: myown
 Conflicts: my-work-linux,
 	my-linux-testing
-Pre-depends: subversion
 Recommends: build-essential,
 	ubuntu-mate-desktop,
 	coreutils,
