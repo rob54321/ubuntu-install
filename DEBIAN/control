@@ -1,5 +1,5 @@
 Package: ubuntu-install
-Version: 1.1.4
+Version: 1.1.5
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
@@ -26,7 +26,6 @@ Recommends: build-essential,
 	gnome-disk-utility,
 	ubuntu-minimal,
 	perlprimer-doc,
-	rclone,
 	perl-doc-html,
 	perl-doc,
 	perl-tk,
@@ -42,21 +41,14 @@ Recommends: build-essential,
 	ibritish,
 	ispell,
 	linux-headers-generic,
-	firefox,
-	builddebiantree,
 	okular,
 	dropbox,
 	kdesdk-dolphin-plugins,
 	konsole,
 	kdiff3,
 	kompare,
-	git,
-	gh,
-	geany,
-	geany-common,
 	default-jdk,
-    default-jdk-doc,
-    psensor,
-    geany-plugins
+	default-jdk-doc,
+	psensor,
 Architecture: amd64
 Description: This package installs all files for ubuntu desktop.
