@@ -1,5 +1,5 @@
 Package: ubuntu-install
-Version: 1.1.6
+Version: 1.1.7
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
@@ -8,11 +8,9 @@ Conflicts: my-work-linux,
 	my-linux-testing
 Recommends: build-essential,
 	ubuntu-mate-desktop,
-	ubuntu-mate-wallpapers-complete,
 	coreutils,
 	curl,
 	htop,
-	xorg,
 	mesa-utils,
 	net-tools,
 	iputils-ping,
@@ -27,7 +25,6 @@ Recommends: build-essential,
 	perl-tk,
 	libdevel-ptkdb-perl,
 	dpkg-dev,
-	synaptic,
 	man2html,
 	ibritish,
 	ispell,
