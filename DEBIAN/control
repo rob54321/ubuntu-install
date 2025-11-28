@@ -1,5 +1,5 @@
 Package: ubuntu-install
-Version: 1.1.7
+Version: 1.1.8
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
@@ -8,15 +8,9 @@ Conflicts: my-work-linux,
 	my-linux-testing
 Recommends: build-essential,
 	ubuntu-mate-desktop,
-	coreutils,
-	curl,
-	htop,
-	mesa-utils,
 	net-tools,
-	iputils-ping,
 	gnome-tweaks,
 	gnome-software,
-	gnome-logs,
 	gnome-disk-utility,
 	ubuntu-minimal,
 	perlprimer-doc,
@@ -24,7 +18,6 @@ Recommends: build-essential,
 	perl-doc,
 	perl-tk,
 	libdevel-ptkdb-perl,
-	dpkg-dev,
 	man2html,
 	ibritish,
 	ispell,
