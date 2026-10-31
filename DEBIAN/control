@@ -1,18 +1,24 @@
 Package: ubuntu-install
-Version: 1.1.8
+Version: 1.1.9
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
 Section: myown
 Conflicts: my-work-linux,
 	my-linux-testing
-Recommends: build-essential,
-	ubuntu-mate-desktop,
+Depends: build-essential,
+	cinnamon,
+	cinnamon-desktop-environment,
+	dpkg-dev,
+	network-manager,
+	network-manager-gnome,
+	rsync,
+	libreoffice-calc,
+	konsole,
 	net-tools,
 	gnome-tweaks,
 	gnome-software,
 	gnome-disk-utility,
-	ubuntu-minimal,
 	perlprimer-doc,
 	perl-doc-html,
 	perl-doc,
@@ -27,6 +33,16 @@ Recommends: build-essential,
 	kompare,
 	default-jdk,
 	default-jdk-doc,
+	libreoffice-gtk3,
+	printer-driver-all,
+	pi-printer-support,
+	printer-driver-brlaser,
+	printer-driver-postscript-hp,
+	system-config-printer-common,
+	system-config-printer-udev,
+	printer-driver-cups-pdf,
+	thunderbird,
+	thunderbirddata,
 	psensor
 Architecture: amd64
 Description: This package installs all files for ubuntu desktop.
