@@ -1,12 +1,12 @@
 Package: ubuntu-install
-Version: 1.2.0
+Version: 1.2.1
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
 Section: myown
 Conflicts: my-work-linux,
 	my-linux-testing
-Depends: build-essential,
+Recommends: build-essential,
 	cinnamon,
 	dpkg-dev,
 	network-manager,
