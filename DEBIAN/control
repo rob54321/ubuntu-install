@@ -19,7 +19,6 @@ Recommends: build-essential,
 	gnome-software,
 	gnome-disk-utility,
 	perlprimer-doc,
-	perl-doc-html,
 	perl-doc,
 	perl-tk,
 	libdevel-ptkdb-perl,
@@ -41,7 +40,7 @@ Recommends: build-essential,
 	system-config-printer-udev,
 	printer-driver-cups-pdf,
 	thunderbird,
-	thunderbirddata,
+	thunderbirdconfig,
 	psensor
 Architecture: amd64
 Description: This package installs all files for ubuntu desktop.
