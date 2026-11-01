@@ -1,5 +1,5 @@
 Package: ubuntu-install
-Version: 1.2.1
+Version: 1.2.2
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Origon: Ubuntu
@@ -26,14 +26,12 @@ Recommends: build-essential,
 	ibritish,
 	ispell,
 	linux-headers-generic,
-	dropbox,
 	kdiff3,
 	kompare,
 	default-jdk,
 	default-jdk-doc,
 	libreoffice-gtk3,
 	printer-driver-all,
-	pi-printer-support,
 	printer-driver-brlaser,
 	printer-driver-postscript-hp,
 	system-config-printer-common,
